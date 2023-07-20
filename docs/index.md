@@ -37,3 +37,14 @@ features:
     details: 是个平平无奇但是又很热爱学习的斜杆青年。
 ---
 
+
+
+
+
+
+<!-- 自定义组件 -->
+<script setup>
+import home from './components/home.vue';
+</script>
+
+<home />
