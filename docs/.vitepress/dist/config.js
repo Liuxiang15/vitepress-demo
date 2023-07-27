@@ -12,6 +12,7 @@ exports["default"] = vitepress_1.defineConfig({
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: relaConf_1.nav,
+        ignoreDeadLinks: true,
         sidebar: [
             {
                 "text": "1.html",
