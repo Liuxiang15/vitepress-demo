@@ -677,6 +677,11 @@ exports["default"] = vitepress_1.defineConfig({
         socialLinks: [
             { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
         ],
+        // 锚点导航Anchor
+        outline: {
+            level: [2, 6],
+            label: '目录'
+        },
         logo: '/avatar.jpeg' // 表示docs/public/avartar.png
     }
 });
