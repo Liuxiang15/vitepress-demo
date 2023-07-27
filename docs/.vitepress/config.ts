@@ -6,6 +6,7 @@ import { nav } from './relaConf';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/vitepress-demo/',
   title: "前端小菜鸟的博客网站",
   description: "A VitePress Site",
   themeConfig: {

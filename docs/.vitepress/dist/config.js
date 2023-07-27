@@ -6,6 +6,7 @@ var relaConf_1 = require("./relaConf");
 // console.log('SIDEBARS', SIDEBARS);
 // https://vitepress.dev/reference/site-config
 exports["default"] = vitepress_1.defineConfig({
+    base: '/vitepress-demo/',
     title: "前端小菜鸟的博客网站",
     description: "A VitePress Site",
     themeConfig: {
