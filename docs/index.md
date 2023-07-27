@@ -20,11 +20,8 @@ hero:
   # 按钮相关
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 学习笔记
+      link: /column/1.html/01.%20文档声明/文档声明.html
 
 # 按钮下方的描述
 features:
