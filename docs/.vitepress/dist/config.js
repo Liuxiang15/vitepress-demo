@@ -682,6 +682,10 @@ exports["default"] = vitepress_1.defineConfig({
             level: [2, 6],
             label: '目录'
         },
+        // 本地搜索
+        search: {
+            provider: 'local'
+        },
         logo: '/avatar.jpeg' // 表示docs/public/avartar.png
     }
 });
