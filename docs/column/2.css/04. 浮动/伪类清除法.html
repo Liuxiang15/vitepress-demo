@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪类清除法</title>
+    <style>
+        .two {
+            margin-top: 10px;
+        }
+
+        .one::after {
+            content: "";
+            display: block;
+            /* height: 0; */
+            clear: both;
+            /* visibility: hidden; */
+            /* 这两个没啥用 */
+        }
+
+        li {
+            float: left;
+            width: 100px;
+            height: 20px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="one">
+        <li>导航1</li>
+        <li>导航2</li>
+        <li>导航3</li>
+    </ul>
+    <ul class="two">
+        <li>游戏</li>
+        <li>动漫</li>
+        <li>音乐</li>
+    </ul>
+</body>
+
+</html>

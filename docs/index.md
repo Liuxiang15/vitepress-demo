@@ -35,6 +35,9 @@ features:
   - icon: 🧩
     title: 斜杆青年
     details: 是个平平无奇但是又很热爱学习的斜杆青年。
+
+
+
 ---
 
 
@@ -43,8 +46,9 @@ features:
 
 
 <!-- 自定义组件 -->
-<script setup>
+<!-- <script setup>
 import home from './components/home.vue';
 </script>
 
-<home />
+<home /> -->
+
