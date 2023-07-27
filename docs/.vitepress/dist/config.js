@@ -686,6 +686,8 @@ exports["default"] = vitepress_1.defineConfig({
         search: {
             provider: 'local'
         },
+        // 国际化i18n
+        i18nRouting: true,
         logo: '/avatar.jpeg' // 表示docs/public/avartar.png
     }
 });
