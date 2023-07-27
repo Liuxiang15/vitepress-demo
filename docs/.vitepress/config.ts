@@ -247,10 +247,6 @@ export default defineConfig({
           {
             "text": "27. 更多知识",
             "link": "/column/3.javascript/27. 更多知识/更多知识.md"
-          },
-          {
-            "text": "javascript 学习汇总.md",
-            "link": "/column/3.javascript/javascript 学习汇总.md"
           }
         ]
       },
