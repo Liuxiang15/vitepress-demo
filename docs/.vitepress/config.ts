@@ -12,6 +12,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: nav,
+    ignoreDeadLinks:true,
     
 
     sidebar: [
